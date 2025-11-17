@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    margin-bottom: 50px;
+    color: #333;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons{
+    margin-top: 100px;
+    height: 70px;
+    width: 200px;
+    margin: 20px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(56, 71, 71);
+    transition: all 0.3s;
+}
+
+.buttons:hover{
+    background-color: rgb(89, 123, 228);
+    scale: 1.1;
+}
