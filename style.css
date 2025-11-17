@@ -32,6 +32,7 @@ html,body{
     border-radius: 6px;
     background-color: rgb(56, 71, 71);
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .buttons:hover{
